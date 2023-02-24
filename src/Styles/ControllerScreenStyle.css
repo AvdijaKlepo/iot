@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body{
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+
+.upravljac{
+    
+  background: url(/src/Material/upravljac.jpg);
+  object-fit: fill;
+  background-repeat: no-repeat;
+  width: 227px;
+  height: 668px;
+ 
+
+    
+} 
+#power{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+
+#sparina{
+    text-align: center;
+    font-size: 2rem;
+    width: 50px;
+    color: white;
+    
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+
+.btn{
+   border: none;
+   border-radius: 30px;
+   margin-top: 25px; 
+}
+
+.btn:hover{
+    background-color: rgb(233, 239, 228);
+    cursor: pointer;
+}
+.btnContainer2{
+    display: flex;
+    justify-content: space-around;
+}
+.btn2{
+    width: 300px;
+    height: 150px;
+    border-radius: 40px;
+    font-size: 3.5rem;
+    border: none;
+    color: white;
+    margin-bottom: 5px;
+    background-color: black;
+    
+   
+}
+
+#btnup{
+   width: 50px;
+   height: 80px;
+   text-align: center;
+}
+
+#btndwn{
+    width: 50px;
+    height: 80px;
+    text-align: center;
+}
+
+
+.btn2:hover{
+    background-color: rgb(199, 230, 233);
+    cursor: pointer;
+}
+
